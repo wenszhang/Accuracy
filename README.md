@@ -1,6 +1,6 @@
 # FBLA-Website
 __________________________________
-DOES ANYBODY KNOW THE REQUIRMENTS?
+DOES ANYBODY KNOW THE REQUIREMENTS?
 __________________________________
 
 
