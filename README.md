@@ -1,4 +1,9 @@
 # FBLA-Website
+__________________________________
+DOES ANYBODY KNOW THE REQUIRMENTS?
+__________________________________
+
+
 Website URL: https://wsz980.github.io/FBLA-Website/
 
 Current FLBA Site: https://www.fbla-pbl.org/
