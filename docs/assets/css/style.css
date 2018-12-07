@@ -587,6 +587,7 @@ input::-ms-input-placeholder {
 }
 .navbar-brand {
     padding: 0px 15px;
+    width: 180px;
 }
 .navbar-brand>img {
     max-width: 80%;
