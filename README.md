@@ -1,6 +1,6 @@
 # FBLA-Website
 _______________
-Accuracy Webside for FBLA 2018-2019
+Accuracy Website for FBLA 2018-2019
 _______________
 
 
