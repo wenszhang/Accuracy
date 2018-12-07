@@ -1,15 +1,12 @@
 # FBLA-Website
-__________________________________
-DOES ANYBODY KNOW THE REQUIREMENTS?
-__________________________________
+_______________
+Accuracy Webside for FBLA 2018-2019
+_______________
 
 
 Website URL: https://wsz980.github.io/FBLA-Website/
 
-Current Accuracy Site: https://www.accuracy.com/
+Requirements: https://www.fbla-pbl.org/competitive-event/website-design-fbla/
 
-Insta-website! 
-
-https://www.w3schools.com/w3css/w3css_templates.asp
-
-https://www.free-css.com/free-css-templates
+Accuracy Services Site: https://www.accuracy.com/
+ 
