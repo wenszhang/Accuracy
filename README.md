@@ -12,5 +12,5 @@ Website URL: https://wsz980.github.io/FBLA-Website/
 
 Requirements: https://www.fbla-pbl.org/competitive-event/website-design-fbla/
 
-Accuracy Services Site: https://www.accuracy.com/
+Accuracy Finance: https://www.accuracy.com/
  
