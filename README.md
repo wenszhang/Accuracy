@@ -1,9 +1,10 @@
 # FBLA-Website
 _______________
 Web design project for FBLA 2018-2019
+
 Prompt: Design a website for Accuracy
 
-# Disclaimer: This website has no affilation with Accuracy. Everything is for the sole purpose of the competiton only.
+**Disclaimer: This website has no affilation with Accuracy. Everything is for the sole purpose of the competiton only.**
 _______________
 
 
