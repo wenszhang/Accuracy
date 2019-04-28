@@ -470,6 +470,18 @@ Button
     border: 1px solid transparent;
 }
 
+.btn-min{
+    background: #d5d5d5;
+    padding: 1rem 2rem;
+    border: 1px solid transparent;
+}
+
+.btn-md2{
+    background: #d5d5d5;
+    padding: 1rem 2rem;
+    border: 1px solid transparent;
+}
+
 /*
 Extra height css
 */
@@ -986,19 +998,19 @@ input::-ms-input-placeholder {
 /*======================================================================
                     portfolio section css
 ========================================================================*/
-.btn-md:active, .btn-md.active {
+.btn-md:active, .btn-md.active, .btn-min.active {
     background-image: none;
     outline: 0;
     -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, .125);
     box-shadow: inset 0 0px 0px rgba(0, 0, 0, .125);
 }
 
-button.btn-md:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+button.btn-md:focus, .btn-min:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
     outline: none;
     color: #e74c3c;
 }
 
-button.btn-md {
+button.btn-md, .btn-min {
     text-align: center;
     color: #444;
     letter-spacing: 1px;
@@ -1012,7 +1024,7 @@ button.btn-md {
     font-family: 'montserratregular';
 }
 
-button.btn-md:hover {
+button.btn-md:hover, btm-min:hover {
     background-color: transparent;
     color: #e74c3c;
     text-decoration: none;
