@@ -6,68 +6,70 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./css/tui-time-picker.css">
     <link rel="stylesheet" type="text/css" href="./css/tui-date-picker.css">
-    <link rel="stylesheet" type="text/css" href="./dist/tui-calendar.css" />
+    <link rel="stylesheet" type="text/css" href="./dist/tui-calendar.css"/>
     <link rel="stylesheet" type="text/css" href="./css/default.css"></link>
     <link rel="stylesheet" type="text/css" href="./css/icons.css"></link>
 </head>
 <body>
 
-        <div class="culmn">
-            <header id="main_menu" class="header navbar-fixed-top">            
-                <div class="main_menu_bg">
-                    <div class="container">
-                        <div class="row">
-                            <div class="nave_menu">
-                                <nav class="navbar navbar-default">
-                                    <div class="container-fluid">
-                                        <!-- Brand and toggle get grouped for better mobile display -->
-                                        <div class="navbar-header">
-                                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                                                <span class="sr-only">Toggle navigation</span>
-                                                <span class="icon-bar"></span>
-                                                <span class="icon-bar"></span>
-                                                <span class="icon-bar"></span>
-                                            </button>
-                                            <a class="navbar-brand" href="./calendar.html">
+<div class="culmn">
+    <header id="main_menu" class="header navbar-fixed-top">
+        <div class="main_menu_bg">
+            <div class="container">
+                <div class="row">
+                    <div class="nave_menu">
+                        <nav class="navbar navbar-default">
+                            <div class="container-fluid">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                    <a class="navbar-brand" href="./calendar.html">
 
-                                                <span style="font-family: 'Noto Sans', sans-serif; color: '#333'; font-size: 28px;">Schedule</span>
-                                            </a>
-                                        </div>
+                                        <span style="font-family: 'Noto Sans', sans-serif; color: '#333'; font-size: 28px;">Schedule</span>
+                                    </a>
+                                </div>
 
-                                        <!-- Collect the nav links, forms, and other content for toggling -->
-
-
-
-                                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-                                            <ul class="nav navbar-nav navbar-right">
-                                                <li><a href="../index.html#home">HOME</a></li>
-                                                <li><a href="../index.html##history">ABOUT US</a></li>
-                                                <li><a href="../index.html##portfolio">PORTFOLIO</a></li>
-                                                <li><a href="../index.html##pricing">PRICING</a></li>
-                                                <li><a href="../index.html##team">TEAM</a></li>
-                                                <li><a href="../index.html##blog">BLOG</a></li>
-                                                <li><a href="./calendar.html">SCHEDULE</a></li>
-                                                <li><a href="../index.html##contact">CONTACT</a></li>
-                                            </ul>
+                                <!-- Collect the nav links, forms, and other content for toggling -->
 
 
-                                        </div>
+                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-                                    </div>
-                                </nav>
-                            </div>	
-                        </div>
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li><a href="../index.html#home">HOME</a></li>
+                                        <li><a href="../index.html##history">ABOUT US</a></li>
+                                        <li><a href="../index.html##portfolio">PORTFOLIO</a></li>
+                                        <li><a href="../index.html##pricing">PRICING</a></li>
+                                        <li><a href="../index.html##team">TEAM</a></li>
+                                        <li><a href="../index.html##blog">BLOG</a></li>
+                                        <li><a href="./calendar.html">SCHEDULE</a></li>
+                                        <li><a href="../index.html##contact">CONTACT</a></li>
+                                    </ul>
 
+
+                                </div>
+
+                            </div>
+                        </nav>
                     </div>
-
                 </div>
-            </header> <!--End of header -->
+
+            </div>
+
+        </div>
+    </header> <!--End of header -->
 
     <div id="lnb">
         <div class="lnb-new-schedule">
-            <button id="btn-new-schedule" type="button" class="btn btn-default btn-block lnb-new-schedule-btn" data-toggle="modal">
-                New schedule</button>
+            <button id="btn-new-schedule" type="button" class="btn btn-default btn-block lnb-new-schedule-btn"
+                    data-toggle="modal">
+                New schedule
+            </button>
         </div>
         <div id="lnb-calendars" class="lnb-calendars">
             <div>
@@ -89,8 +91,9 @@
     <div id="right">
         <div id="menu">
             <span class="dropdown">
-                <button id="dropdownMenu-calendarType" class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="true">
+                <button id="dropdownMenu-calendarType" class="btn btn-default btn-sm dropdown-toggle" type="button"
+                        data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="true">
                     <i id="calendarTypeIcon" class="calendar-icon ic_view_month" style="margin-right: 4px;"></i>
                     <span id="calendarTypeName">Dropdown</span>&nbsp;
                     <i class="calendar-icon tui-full-calendar-dropdown-arrow"></i>
@@ -124,7 +127,8 @@
                     <li role="presentation" class="dropdown-divider"></li>
                     <li role="presentation">
                         <a role="menuitem" data-action="toggle-workweek">
-                            <input type="checkbox" class="tui-full-calendar-checkbox-square" value="toggle-workweek" checked>
+                            <input type="checkbox" class="tui-full-calendar-checkbox-square" value="toggle-workweek"
+                                   checked>
                             <span class="checkbox-title"></span>Show weekends
                         </a>
                     </li>
@@ -136,7 +140,8 @@
                     </li>
                     <li role="presentation">
                         <a role="menuitem" data-action="toggle-narrow-weekend">
-                            <input type="checkbox" class="tui-full-calendar-checkbox-square" value="toggle-narrow-weekend">
+                            <input type="checkbox" class="tui-full-calendar-checkbox-square"
+                                   value="toggle-narrow-weekend">
                             <span class="checkbox-title"></span>Narrower than weekdays
                         </a>
                     </li>
@@ -156,12 +161,13 @@
         <div id="calendar"></div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"    
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous">
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="https://uicdn.toast.com/tui.code-snippet/latest/tui-code-snippet.min.js"></script>
+    <script type="text/javascript"
+            src="https://uicdn.toast.com/tui.code-snippet/latest/tui-code-snippet.min.js"></script>
     <script type="text/javascript" src="https://uicdn.toast.com/tui.time-picker/latest/tui-time-picker.min.js"></script>
     <script type="text/javascript" src="https://uicdn.toast.com/tui.date-picker/latest/tui-date-picker.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
