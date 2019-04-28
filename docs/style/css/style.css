@@ -729,7 +729,7 @@ input::-ms-input-placeholder {
 
 /*heading title all area*/
 .head_title {
-    margin-bottom: 90px;
+    margin-bottom: 0px;
 }
 
 .head_title h3 {
