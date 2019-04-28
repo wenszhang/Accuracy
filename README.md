@@ -17,14 +17,16 @@ Style guide: https://google.github.io/styleguide/htmlcssguide.html
 
 Accuracy Services Site: https://www.accuracy.com/
 
-Website Design (FBLA)
 
-Category: Prejudged Projects & Presentation	
-Type: Individual or Team
+
+
 
 ----------
 Overview
 ----------
+Website Design (FBLA)
+Category: Prejudged Projects & Presentation	
+Type: Individual or Team
 
 Two (2) parts: a prejudged project and a presentation. 
 Competitors must complete both parts for award eligibility.
