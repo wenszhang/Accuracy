@@ -24,16 +24,9 @@ Accuracy Services Site: https://www.accuracy.com/
 ----------
 Overview
 ----------
-Website Design (FBLA)
+Website Design (FBLA) | Category: Prejudged Projects & Presentation	| Type: Individual or Team
 
-
-Category: Prejudged Projects & Presentation	
-
-Type: Individual or Team
-
-Two (2) parts: a prejudged project and a presentation. 
-
-Competitors must complete both parts for award eligibility.
+Two (2) parts: a prejudged project and a presentation. | Competitors must complete both parts for award eligibility.
 
 Topic: Accuracy is 
   - a new accounting firm that specializes in performing accounting responsibilities such as 
