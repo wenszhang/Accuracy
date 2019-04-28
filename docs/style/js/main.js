@@ -8,13 +8,13 @@ jQuery(document).ready(function ($) {
     /*---------------------------------------------*
      * Mobile menu
      ---------------------------------------------*/
-    $('.navbar-collapse').find('a[href*=#]:not([href=#])').click(function () {
+    $('#bs-example-navbar-collapse-1').find('a[href*=#]:not([href=#])').click(function () {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
             var target = $(this.hash);
             target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
             if (target.length) {
                 $('html,body').animate({
-                    scrollTop: (target.offset().top - 40)
+                    scrollTop: (target.offset().top - 0)
                 }, 1000);
                 if ($('.navbar-toggle').css('display') != 'none') {
                     $(this).parents('.container').find(".navbar-toggle").trigger("click");
