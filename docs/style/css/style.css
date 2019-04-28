@@ -742,7 +742,7 @@ input::-ms-input-placeholder {
 
 /*home section*/
 .home {
-    background: url(../../images/homebg.png) no-repeat center center;
+    background: url(../../images/homebg.webp) no-repeat center center;
     background-size: cover;
 }
 
@@ -1148,7 +1148,7 @@ button.btn-md:hover {
                     counter section css
 =======================================================================*/
 .counter {
-    background: url(../../images/counterbg.jpg) no-repeat top center;
+    background: url(../../images/counterbg.webp) no-repeat top center;
     background-size: cover;
 }
 
