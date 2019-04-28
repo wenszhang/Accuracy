@@ -1019,20 +1019,6 @@ button.btn-md:hover {
     border: 0px solid #f4720a;
 }
 
-button.btn-md .back {
-    text-align: center;
-    color: #6c6c6c;
-    letter-spacing: 1px;
-    margin: 0;
-    font-size: 0.8125rem;
-    border-radius: 0px;
-    margin-top: 0px;
-    background-color: transparent;
-    transition: .5s;
-    border: 0px solid #000000;
-    font-family: 'montserratregular';
-}
-
 .portfolio .toolbar {
     margin-bottom: 50px;
 }
