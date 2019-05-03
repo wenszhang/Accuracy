@@ -47,7 +47,7 @@ function hexToRGBA(hex) {
     calendar = new CalendarInfo();
     id += 1;
     calendar.id = String(id);
-    calendar.name = 'My Calendar';
+    calendar.name = 'Bookkeeping';
     calendar.color = '#ffffff';
     calendar.bgColor = '#9e5fff';
     calendar.dragBgColor = '#9e5fff';
@@ -57,7 +57,7 @@ function hexToRGBA(hex) {
     calendar = new CalendarInfo();
     id += 1;
     calendar.id = String(id);
-    calendar.name = 'Company';
+    calendar.name = 'Personal Taxes';
     calendar.color = '#ffffff';
     calendar.bgColor = '#00a9ff';
     calendar.dragBgColor = '#00a9ff';
@@ -67,7 +67,7 @@ function hexToRGBA(hex) {
     calendar = new CalendarInfo();
     id += 1;
     calendar.id = String(id);
-    calendar.name = 'Family';
+    calendar.name = 'Business Taxes';
     calendar.color = '#ffffff';
     calendar.bgColor = '#ff5583';
     calendar.dragBgColor = '#ff5583';
@@ -77,7 +77,7 @@ function hexToRGBA(hex) {
     calendar = new CalendarInfo();
     id += 1;
     calendar.id = String(id);
-    calendar.name = 'Friend';
+    calendar.name = 'Audits';
     calendar.color = '#ffffff';
     calendar.bgColor = '#03bd9e';
     calendar.dragBgColor = '#03bd9e';
@@ -87,7 +87,7 @@ function hexToRGBA(hex) {
     calendar = new CalendarInfo();
     id += 1;
     calendar.id = String(id);
-    calendar.name = 'Travel';
+    calendar.name = 'Annual Reports';
     calendar.color = '#ffffff';
     calendar.bgColor = '#bbdc00';
     calendar.dragBgColor = '#bbdc00';
@@ -97,7 +97,7 @@ function hexToRGBA(hex) {
     calendar = new CalendarInfo();
     id += 1;
     calendar.id = String(id);
-    calendar.name = 'etc';
+    calendar.name = 'Financial Planning';
     calendar.color = '#ffffff';
     calendar.bgColor = '#9d9d9d';
     calendar.dragBgColor = '#9d9d9d';
@@ -107,7 +107,7 @@ function hexToRGBA(hex) {
     calendar = new CalendarInfo();
     id += 1;
     calendar.id = String(id);
-    calendar.name = 'Birthdays';
+    calendar.name = 'Consulting';
     calendar.color = '#ffffff';
     calendar.bgColor = '#ffbb3b';
     calendar.dragBgColor = '#ffbb3b';
@@ -117,7 +117,7 @@ function hexToRGBA(hex) {
     calendar = new CalendarInfo();
     id += 1;
     calendar.id = String(id);
-    calendar.name = 'National Holidays';
+    calendar.name = 'Accounting';
     calendar.color = '#ffffff';
     calendar.bgColor = '#ff4040';
     calendar.dragBgColor = '#ff4040';
