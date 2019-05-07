@@ -1092,7 +1092,7 @@ input::-ms-input-placeholder {
     top:94%;
 }
 .main_team ul li .single_team_img img{
-    width:60px;
+    width: 60px;
     height: 60px;
     margin:20px auto;
     border-radius: 50%;
@@ -1106,13 +1106,14 @@ li:hover .single_team_text{
     opacity: 1;
 }
 li .single_team_text{
-    padding: 10px 20px;
+    padding: 10px 10px;
     width:100%;
     opacity:0;
     transition: all 0.6s;
     text-align: center;
     display: block;
     height: 80px;
+    background-color: #fff;
 }
 li .single_team_text h4{
     margin-bottom: .0rem;
@@ -1476,8 +1477,8 @@ button.btn-md:hover, btm-min:hover {
 }
 
 .pricing_body {
-    background: #f4f5f9;
-    padding: 80px 0px 30px 0px;
+    background: #c0c0c0;
+    padding: 70px 0px 30px 0px;
 }
 
 .single_pricing ul {
@@ -1596,7 +1597,7 @@ button.btn-md:hover, btm-min:hover {
 }
 
 li:hover .single_team_img img {
-    transform: scale(1.08);
+    transform: scale(2.0);
 }
 
 li:hover .single_team_text {
@@ -1604,7 +1605,7 @@ li:hover .single_team_text {
 }
 
 li .single_team_text {
-    padding: 10px 20px;
+    padding: 10px 10px;
     width: 100%;
     opacity: 0;
     transition: all 0.6s;
@@ -1621,7 +1622,9 @@ li .single_team_text h4 {
 }
 
 li .single_team_text p {
-    color: #fff;
+	font-size: 14px;
+    /*color: #fff;*/
+    color: #4286f4;
 }
 
 /* Carousel */
@@ -1747,7 +1750,10 @@ li .single_team_text p {
     height: 100%;
 }
 
-/*contact section css*/
+/*==============================================
+             contact section css
+  ============================================== */
+  
 .contact {
     background: #f4f5f9;
 
@@ -1762,7 +1768,7 @@ li .single_team_text p {
 .contact_info_content h3 {
     color: #e74e3e;
     font-family: 'source_sans_prosemibold';
-    margin-bottom: 19px;
+    margin-bottom: 0px;
 }
 
 .contact_info_content h4 {
@@ -1781,7 +1787,7 @@ li .single_team_text p {
 }
 
 .single_contact_info {
-    margin-bottom: 45px;
+    margin-bottom: 5px;
     overflow: hidden;
 }
 
