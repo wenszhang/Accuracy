@@ -404,9 +404,11 @@ Separator
 /*section:nth-of-type(odd) {
     background-color: #F9F9F9;
 }*/
-/*
-Button
-*/
+
+/* =================================
+              Button
+==================================== */
+
 .btn-primary.active.focus,
 .btn-primary.active:focus,
 .btn-primary.active:hover,
@@ -425,7 +427,12 @@ Button
     border-color: #e74c3c;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary.focus, 
+.btn-primary:active, 
+.btn-primary.active, 
+.open > .dropdown-toggle.btn-primary {
     color: #fff;
     background-color: #e74c3c;
     border-color: #e74c3c;
@@ -677,7 +684,9 @@ input::-ms-input-placeholder {
     background: transparent;
 }
 
+/* ================================ */
 /* ------- dropdown-menu ---------- */
+/* ================================ */
 
 .dropdown-menu {
     color: #e74c3c;
@@ -728,9 +737,9 @@ input::-ms-input-placeholder {
 .dropdown-menu > li > a,
 .dropdown-menu > li a:hover,
 .dropdown-menu > li a:focus {
-    color: #e2e54c;     /*#e74c3c;  #777; */
+    color: #0000ff;     /*#e2e54c;, #e74c3c;  #777; */
     /* background-color: #d4cece; */       /*#2e6da4;*/
-    background:rgba(212,206,206,0.5);
+    background:rgba(212,206,206,0.8);
 }
 
 /* ----------------- */
@@ -972,10 +981,14 @@ input::-ms-input-placeholder {
             Feature section Style
 ====================================================================*/
 
-.main_feature {
+.feature {
+	background-color: #eaeaea;
 }
 
-.main_feature .single_feature {
+.single_feature {
+	background-color: #d2d2d2;
+	height: 360px;
+	border: 3px solid #808080;
 }
 
 .main_feature .single_feature:hover .single_feature_icon {
@@ -1008,6 +1021,10 @@ input::-ms-input-placeholder {
 
 .main_feature .single_feature h4 {
     transition: all 0.6s;
+}
+
+p.feature_p {
+   font-size: 130%;	
 }
 
 /*==================================================================
