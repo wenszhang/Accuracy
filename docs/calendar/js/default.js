@@ -13,7 +13,6 @@
 
     cal = new Calendar('#calendar', {
         defaultView: 'month',
-        //defaultView: 'week',
         useCreationPopup: useCreationPopup,
         useDetailPopup: useDetailPopup,
         calendars: CalendarList,
