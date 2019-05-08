@@ -52,9 +52,11 @@
 <body data-spy="scroll" data-target=".navbar-collapse">
 
 <!-- Loading animation -->
+<!--
 <div class='preloader'>
     <div class='loaded'>&nbsp;</div>
 </div>
+-->
 
 <div class="culmn">
     <header id="main_menu" class="header navbar-fixed-top">
@@ -70,25 +72,56 @@
                                             data-toggle="collapse"
                                             data-target="#bs-example-navbar-collapse-1"
                                             aria-expanded="false">
-                                        <span class="sr-only">Toggle navigation</span> <span
-                                            class="icon-bar"></span> <span class="icon-bar"></span> <span
-                                            class="icon-bar"></span>
+                                        <span class="sr-only">Toggle navigation</span> 
+                                        <span class="icon-bar"></span> 
+                                        <span class="icon-bar"></span> 
+                                        <span class="icon-bar"></span>
                                     </button>
-                                    <a class="navbar-brand" href="#home"> <img
-                                            src="images/logo.webp"/>
-                                    </a>
+                                    <a class="navbar-brand" href="#home"> <img src="images/logo.webp"/></a>
                                 </div>
 
                                 <!-- Collect the nav links, forms, and other content for toggling -->
-                                <div class="collapse navbar-collapse"
-                                     id="bs-example-navbar-collapse-1">
+                                <div class="collapse navbar-collapse" id="myNavbar">
 
                                     <ul class="nav navbar-nav navbar-right">
                                         <li><a href="#home">HOME</a></li>
-                                        <li><a href="#history">ABOUT US</a></li>
-                                        <li><a href="#pricing">PRICING</a></li>
-                                        <li><a href="#calendar">SCHEDULE</a></li>
+                                        
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">SERVICES<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                               <li><a href="#feature">Mission Statement</a></li>
+                                               <li><a href="#service">Services</a></li>
+                                               <li><a href="#pricing">Price</a></li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">ABOUT US<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#history">Our History</a></li>
+                                                <li><a href="#team">Our Team</a></li>
+                                                
+                                            </ul>
+                                        </li>
+                                        
+                                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">APPOINTMENT<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                               <li><a href="#calendar">Make Appointment</a></li>
+                                               <li><a href="calendar/calendar_staff.html">View Schedule</a></li>
+                                            </ul>
+                                        </li>
+
                                         <li><a href="#contact">CONTACT</a></li>
+                                        
+                                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#news">News</a></li>
+                                                <li><a href="#resource">Resources</a></li>
+                                                <li><a href="#faq">FAQs</a></li>
+                                                <li><a href="#sitemap">Site Map</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="javascript:void(0)"><span class="glyphicon glyphicon-search" onclick='open_search(this)' title='Search'></span></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -109,8 +142,9 @@
                         <div class="col-sm-12 ">
                             <div class="main_home_slider text-center">
                                 <div class="single_home_slider">
-                                    <div class="main_home wow fadeInUp" data-wow-duration="700ms">
+                                    <div class="main_home wow fadeInUp" data-wow-duration="0ms">
                                         <h3>Our Clients Are Our First Priority</h3>
+                                        <p><p/>
                                         <h1>WELCOME TO ACCURACY</h1>
                                         <div class="separator"></div>
                                         <p>Large enough to meet all your financial needs. Small
@@ -126,7 +160,8 @@
                                 <div class="single_home_slider">
                                     <div class="main_home wow fadeInUp" data-wow-duration="700ms">
                                         <h3>Better Us, Better You</h3>
-                                        <h1>HERE TO MAKE A DIFFERENCE</h1>
+                                        <p><p/>
+                                        <h1>MAKE A DIFFERENCE</h1>
                                         <div class="separator"></div>
                                         <p>We’re more than just a accounting firm. We are your friends, neighbors, and
                                             family. Here to help everyone succeed; because without you, we wouldn’t be
@@ -141,13 +176,13 @@
                                 <div class="single_home_slider">
                                     <div class="main_home wow fadeInUp" data-wow-duration="700ms">
                                         <h3>Our Clients Are Our First Priority</h3>
-                                        <h1>WELCOME TO ACCURACY</h1>
+                                        <p><p/>
+                                        <h1>Best Services</h1>
                                         <div class="separator"></div>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and
-                                            typesetting industry. Lorem Ipsum has been the industry's
-                                            standard dummy text ever since the 1500s, when an unknown
-                                            printer took a galley of type and scrambled it to make a
-                                            type specimen book.</p>
+                                        <p>We offer planning and guidance to help you reach your 
+                                        professional and personal goals. Our people connect with 
+                                        a vast network of resources behind the scenes — seamlessly 
+                                        presented and delivered for you.</p>
                                         <div class="home_btn">
                                             <a href="" class="btn btn-lg m_t_10">GET STARTED NOW</a> <a
                                                 href="" class="btn btn-default">LEARN MORE</a>
@@ -171,6 +206,13 @@
     <!--feature section -->
     <section id="feature" class="feature sections">
         <div class="container">
+           <div class="head_title text-center">
+
+                <h2>MISSION STATEMENT</h2>
+                            <div class="subtitle_01">Better Us, Better You</div>
+                            <!--div class="separator"></div-->
+                        </div>
+                        <!-- End off Head_title -->
             <div class="row">
                 <div class="main_feature text-center">
 
@@ -182,7 +224,7 @@
 
                             <h4>GOAL ORIENTATED</h4>
                             <div class="separator3"></div>
-                            <p>Every action carried out with the goal in mind. Lorem
+                            <p class="feature_p">Every action carried out with the goal in mind. Lorem
                                 Ipsum is simply dummy text of the printing and typesetting let.
                                 Lorem Ipsum has been the industry.</p>
                         </div>
@@ -196,7 +238,7 @@
 
                             <h4>CUSTOMER FOCUSED</h4>
                             <div class="separator3"></div>
-                            <p>Your needs are our priority. Lorem Ipsum is simply dummy
+                            <p class="feature_p">Your needs are our priority. Lorem Ipsum is simply dummy
                                 text of the printing and typesetting let. Lorem Ipsum has been
                                 the industry.</p>
                         </div>
@@ -209,7 +251,7 @@
                             </div>
                             <h4>INNOVATIVE</h4>
                             <div class="separator3"></div>
-                            <p>Unique and creative ideas to make you and your business
+                            <p class="feature_p">Unique and creative ideas to make you and your business
                                 the best of the best.</p>
                         </div>
                     </div>
@@ -222,7 +264,7 @@
 
                             <h4>FREE SUPPORT</h4>
                             <div class="separator3"></div>
-                            <p>Lorem Ipsum is simply dummy text of the printing and
+                            <p class="feature_p">Lorem Ipsum is simply dummy text of the printing and
                                 typesetting let. Lorem Ipsum has been the industry.</p>
                         </div>
                     </div>
@@ -235,59 +277,6 @@
     <!--End of feature Section -->
     <hr/>
 
-
-    <!-- History section -->
-    <section id="history" class="history sections">
-        <div class="container">
-            <div class="row">
-                <div class="main_history">
-                    <div class="col-sm-6">
-                        <div class="single_history_img">
-                            <img src="images/stab1.webp" alt=""/>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6">
-                        <div class="single_history_content">
-                            <div class="head_title">
-                                <h2>OUR HISTORY</h2>
-                            </div>
-                            <p>Accuracy was founded in November 2004 by a group of
-                                former Arthur Andersen consultants who were driven by the need
-                                for an independent player in the field of financial advisory
-                                services. The team was determined to transform this new
-                                entrepreneurial project into a successful company, in which the
-                                utmost commitment to its clients and its employees were of
-                                equal importance and constant innovation was a necessity.Since
-                                the core group of partners founded the company in 2004,
-                                Accuracy has rapidly expanded to include international teams
-                                across its offices in Europe, North America, Asia, the Middle
-                                East and Africa and leads engagements for prestigious clients
-                                all over the world.</p>
-
-
-                            <h5>Follow Us</h5>
-                            <div class="row">
-                                <div class="col-sm-6 col-xs-12">
-                                    <div class="flowus">
-                                        <a href=""><i class="fa fa-facebook"></i></a> <a href=""><i
-                                            class="fa fa-twitter"></i></a> <a href=""><i
-                                            class="fa fa-google-plus"></i></a> <a href=""><i
-                                            class="fa fa-instagram"></i></a> <a href=""><i
-                                            class="fa fa-youtube"></i></a> <a href=""><i
-                                            class="fa fa-dribbble"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End of row -->
-        </div>
-        <!--End of container -->
-    </section>
-    <!--End of history -->
 
     <!-- Services section -->
     <section id="service" class="service">
@@ -376,7 +365,7 @@
                     <div class="col-md-6 col-sm-12 no-padding">
                         <figure class="single_service single_service_img">
                             <div class="overlay-img"></div>
-                            <img src="images/servicerightimg.webp" alt=""/>
+                            <img src="images/servicerightimg.jpg" alt=""/>
                         </figure>
                         <!-- End of figure -->
                     </div>
@@ -412,6 +401,254 @@
         <!-- End off container -->
     </section>
     <!-- End off Pricing Section -->
+
+    <!-- History section -->
+    <section id="history" class="history sections">
+        <div class="container  margin-top-60">
+            <div class="row">
+                <div class="main_history">
+                    <div class="col-sm-6">
+                        <div class="single_history_img">
+                            <img src="images/stab1.jpg" alt=""/>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="single_history_content">
+                            <div class="head_title">
+                                <h2>OUR HISTORY</h2>
+                            </div>
+                            <p>Accuracy was founded in November 2004 by a group of
+                                former Arthur Andersen consultants who were driven by the need
+                                for an independent player in the field of financial advisory
+                                services. The team was determined to transform this new
+                                entrepreneurial project into a successful company, in which the
+                                utmost commitment to its clients and its employees were of
+                                equal importance and constant innovation was a necessity.Since
+                                the core group of partners founded the company in 2004,
+                                Accuracy has rapidly expanded to include international teams
+                                across its offices in Europe, North America, Asia, the Middle
+                                East and Africa and leads engagements for prestigious clients
+                                all over the world.</p>
+
+
+                            <h5>Follow Us</h5>
+                            <div class="row">
+                                <div class="col-sm-6 col-xs-12">
+                                    <div class="flowus">
+                                        <a href=""><i class="fa fa-facebook"></i></a> <a href=""><i
+                                            class="fa fa-twitter"></i></a> <a href=""><i
+                                            class="fa fa-google-plus"></i></a> <a href=""><i
+                                            class="fa fa-instagram"></i></a> <a href=""><i
+                                            class="fa fa-youtube"></i></a> <a href=""><i
+                                            class="fa fa-dribbble"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End of row -->
+        </div>
+        <!--End of container -->
+    </section>
+    <!--End of history -->
+
+		<!-- Team Section -->
+		<section id="team" class="team">
+			<div class="main_team_area">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="head_title textwhite text-center margin-top-150">
+								<h2>OUR TEAM</h2>
+								<div class="subtitle">Meet the craziest team. Share your thoughts with them.</div>
+								<!-- div class="separator"></div -->
+							</div>
+							<!-- End off Head_title -->
+
+							<div class="main_team margin-top-150">
+								<ul>
+									<li>
+										<div class="single_team_img">
+											<img src="images/team1.jpg" alt="" />
+										</div>
+										<div class="single_team_text">
+											<h4>Semf Ucuk</h4>
+											<p>Founder</p>
+										</div>
+									</li>
+									<li>
+										<div class="single_team_img">
+											<img src="images/team2.jpg" alt="" />
+										</div>
+										<div class="single_team_text">
+											<h4>Kazi Erfan</h4>
+											<p>CPA</p>
+										</div>
+									</li>
+									<li>
+										<div class="single_team_img">
+											<img src="images/team3.jpg" alt="" />
+										</div>
+										<div class="single_team_text">
+											<h4>Jeng Koli</h4>
+											<p>CPA</p>
+										</div>
+									</li>
+									<li>
+										<div class="single_team_img">
+											<img src="images/team4.jpg" alt="" />
+										</div>
+										<div class="single_team_text">
+											<h4>Pet Romak</h4>
+											<p>Management Accountant</p>
+										</div>
+									</li>
+									<li>
+										<div class="single_team_img">
+											<img src="images/test2.jpg" alt="" />
+										</div>
+										<div class="single_team_text">
+											<h4>Chet Pok</h4>
+											<p>Investment Accountant</p>
+										</div>
+									</li>
+								</ul>
+							</div>
+
+						</div>
+						<!-- End of main team contant -->
+					</div>
+				</div>
+				<!-- End of container -->
+			</div>
+		</section>
+		<!-- End off Team Section -->
+
+    <!-- Calendar Section -->
+    <section id="calendar" class="calendar">
+        <div class="container">
+            <div class="row">
+                <div class="main_pricing_area sections">
+                    <div class="head_title text-center">
+                        <h2>Make Appointment</h2>
+                        <!--
+                        <div class="subtitle">Interested? Let's get started!</div>
+                        <div class="separator"></div>
+                        -->
+                    </div>
+                    <div class="iframe-container">
+                        <iframe src="calendar/calendar.html" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Calendar Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="contact_contant sections">
+                        <div class="head_title text-center">
+                            <h2>CONTACT</h2>
+                            <div class="subtitle_01"></div>
+                            <!-- div class="subtitle_01">Have something to say? We're eager to listen</div -->
+                            <!--div class="separator"></div-->
+                        </div>
+                        <!-- End off Head_title -->
+                        <div class="row">
+                        
+                            <div class="col-sm-6">
+
+                                <div class="contact_info_content padding-top-20 padding-bottom-20 p_l_r">
+                                        
+                                   <div class="col-sm-12">
+                                      <div class="single_contact_info">
+                                         <div class="single_info_text">
+                                                       <h3>OUR ADDRESS</h3>
+                                                        <h4>7350 South 900 East, Midvale, UT 84047</h4>
+                                                       
+                                                        <h3>CALL US</h3>
+                                                        <h4>Tel: 801-826-6000</h4>
+                                                        <h4>Cell: 0216809142</h4>
+
+                                                        <h3>EMAIL US</h3>
+                                                        <h4>contactus@email.com</h4>
+                                         </div>
+                                      </div>
+                                   </div>
+                             
+<!--Google map-->
+<div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 100%; ">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3028.5749394153327!2d-111.86872118459799!3d40.617200979342364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752882dd1d1d94b%3A0xbfdb6a332851ad58!2s7350+South+900+East%2C+Midvale%2C+UT+84047!5e0!3m2!1sen!2sus!4v1556734642928!5m2!1sen!2sus" 
+            frameborder="30px" style="border-width: 1px;  border-color: red;" allowfullscreen width="100%" height="330px">
+    </iframe>
+</div>
+<!--Google Maps-->
+                                </div>
+
+                            </div>     
+
+                            <div class="col-sm-6">
+                                <div class="single_contant_left padding-top-90 padding-bottom-90">
+                                    <form action="#" id="formid">
+                                        <div class="col-lg-8 col-md-8 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1">
+
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" name="name"
+                                                               placeholder="First Name" required=""
+                                                               style="border-width: 1px;  background-color: #ededed;>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-12">
+                                                    <div class="form-group">
+                                                        <input type="email" class="form-control" name="email"
+                                                               placeholder="Email" required=""
+                                                               style="border-width: 1px;  background-color: #ededed;>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" name="subject" 
+                                                               placeholder="Subject" required="" 
+                                                               style="border-width: 1px;  background-color: #ededed;>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="form-group">
+													<textarea class="form-control" name="message" rows="9" placeholder="Message"
+													          style="border-width: 1px;  background-color: #ededed;"></textarea>
+                                            </div>
+
+                                            <div class="">
+                                                <input type="submit" value="SEND MESSAGE" class="btn btn-lg">
+                                            </div>
+                                            
+                                        </div>
+                                    </form>
+                                    
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of contact section -->
+    
+
 
     <!-- Counter Section -->
     <section id="counter" class="counter">
@@ -470,130 +707,7 @@
         <!-- End off container -->
     </section>
     <!-- End of counter section -->
-
-    <!-- Calendar Section -->
-    <section id="calendar" class="calendar">
-        <div class="container">
-            <div class="row">
-                <div class="main_pricing_area sections">
-                    <div class="head_title text-center">
-                        <h2>SCHEDULE FOR A QUOTE</h2>
-                        <div class="subtitle">Interested? Let's get started!
-                        </div>
-                        <div class="separator"></div>
-                    </div>
-                    <div class="iframe-container">
-                        <iframe src="calendar/calendar.html" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End of Calendar Section -->
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="contact_contant sections">
-                        <div class="head_title text-center">
-                            <h2>KEEP IN TOUCH</h2>
-                            <div class="subtitle">Have something to say? We're eager to listen</div>
-                            <div class="separator"></div>
-                        </div>
-                        <!-- End off Head_title -->
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="main_contact_info">
-                                    <div class="row">
-                                        <div
-                                                class="contact_info_content padding-top-90 padding-bottom-60 p_l_r">
-                                            <div class="col-sm-12">
-                                                <div class="single_contact_info">
-                                                    <div class="single_info_text">
-                                                        <h3>OUR ADDRESS</h3>
-                                                        <h4>House #13, Streat road, Sydney 2310 Australia</h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-12">
-                                                <div class="single_contact_info">
-                                                    <div class="single_info_text">
-                                                        <h3>CALL US</h3>
-                                                        <h4>+ 880 168 109 1425</h4>
-                                                        <h4>+ 0216809142</h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-12">
-                                                <div class="single_contact_info">
-                                                    <div class="single_info_text">
-                                                        <h3>EMAIL US</h3>
-                                                        <h4>contactus@email.com</h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-sm-6">
-                                <div
-                                        class="single_contant_left padding-top-90 padding-bottom-90">
-                                    <form action="#" id="formid">
-                                        <div
-                                                class="col-lg-8 col-md-8 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1">
-
-                                            <div class="row">
-                                                <div class="col-sm-12">
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" name="name"
-                                                               placeholder="First Name" required="">
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
-                                            <div class="row">
-                                                <div class="col-sm-12">
-                                                    <div class="form-group">
-                                                        <input type="email" class="form-control" name="email"
-                                                               placeholder="Email" required="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-12">
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" name="subject"
-                                                               placeholder="Subject" required="">
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
-                                            <div class="form-group">
-													<textarea class="form-control" name="message" rows="7"
-                                                              placeholder="Message"></textarea>
-                                            </div>
-
-                                            <div class="">
-                                                <input type="submit" value="SEND MESSAGE"
-                                                       class="btn btn-lg">
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End of contact section -->
-
+    
 </div>
 
 <!--Footer section-->

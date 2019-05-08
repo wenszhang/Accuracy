@@ -20042,11 +20042,11 @@ Handlebars.registerHelper({
     },
 
     'titlePlaceholder-tmpl': function() {
-        return 'Subject';
+        return 'Name';
     },
 
     'locationPlaceholder-tmpl': function() {
-        return 'Location';
+        return 'Email';
     },
 
     'startDatePlaceholder-tmpl': function() {
@@ -20057,7 +20057,7 @@ Handlebars.registerHelper({
         return 'End date';
     },
     'popupSave-tmpl': function() {
-        return 'Save';
+        return 'Submit';
     },
     'popupUpdate-tmpl': function() {
         return 'Update';

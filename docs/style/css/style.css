@@ -191,16 +191,18 @@ h4 {
     text-transform: uppercase;
 }
 
-/*h5 {
+h5 {
     font-size: 1.125rem;
     margin-bottom: 1rem;
     color:#223d61;
     text-transform: uppercase;
 }
+
 h6 {
     font-size: 1rem;
     margin-bottom: .9rem;
-}*/
+}
+
 p {
     line-height: 2rem;
     font-size: 0.875rem;
@@ -268,6 +270,11 @@ Section
 
 section .subtitle h5 {
     margin-top: 10px;
+    font-size: 1.3rem;
+}
+
+.subtitle_01 {
+    margin-top: 5px;
     font-size: 1.3rem;
 }
 
@@ -397,9 +404,11 @@ Separator
 /*section:nth-of-type(odd) {
     background-color: #F9F9F9;
 }*/
-/*
-Button
-*/
+
+/* =================================
+              Button
+==================================== */
+
 .btn-primary.active.focus,
 .btn-primary.active:focus,
 .btn-primary.active:hover,
@@ -418,7 +427,12 @@ Button
     border-color: #e74c3c;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary.focus, 
+.btn-primary:active, 
+.btn-primary.active, 
+.open > .dropdown-toggle.btn-primary {
     color: #fff;
     background-color: #e74c3c;
     border-color: #e74c3c;
@@ -522,8 +536,21 @@ Extra height css
     margin-bottom: 80px;
 }
 
+.margin-top-150 {
+    margin-top: 150px;
+}
+
+
 .m_t_10 {
     margin-right: 10px;
+}
+
+.padding-top-1 {
+    padding-top: 1.0 rem;
+}
+
+.padding-bottom-1 {
+    padding-bottom: 1.0 rem;
 }
 
 .padding-top-20 {
@@ -562,9 +589,15 @@ Extra height css
     padding-bottom: 0;
 }
 
+
 .p_l_r {
     padding-left: 5.714rem;
     padding-right: 5.714rem;
+}
+
+.p_l_r_2 {
+    padding-left: 2.0rem;
+    padding-right: 2.0rem;
 }
 
 /*padding*/
@@ -650,6 +683,66 @@ input::-ms-input-placeholder {
     color: #e74c3c;
     background: transparent;
 }
+
+/* ================================ */
+/* ------- dropdown-menu ---------- */
+/* ================================ */
+
+.dropdown-menu {
+    color: #e74c3c;
+    background: #e74c3c;
+}
+
+.dropdown-menu > li {
+    color: #e74c3c;
+    /* background: transparent; */
+}
+
+/*
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+	color: #e74c3c;
+  background-color: #e8e8e8;
+  background-image: -webkit-linear-gradient(top, #f5f5f5 0%, #e8e8e8 100%);
+  background-image:      -o-linear-gradient(top, #f5f5f5 0%, #e8e8e8 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#e8e8e8));
+  background-image:         linear-gradient(to bottom, #f5f5f5 0%, #e8e8e8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#ffe8e8e8', GradientType=0);
+  background-repeat: repeat-x;
+}
+
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+	color: #e74c3c;
+  background-color: #2e6da4;
+  background-image: -webkit-linear-gradient(top, #337ab7 0%, #2e6da4 100%);
+  background-image:      -o-linear-gradient(top, #337ab7 0%, #2e6da4 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#337ab7), to(#2e6da4));
+  background-image:         linear-gradient(to bottom, #337ab7 0%, #2e6da4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff2e6da4', GradientType=0);
+  background-repeat: repeat-x;
+}
+*/
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+    color: #e74c3c;     /*#e74c3c;  #777; */
+    /* background-color: #d4cece; */      /*#2e6da4;*/
+    background:rgba(212,206,206,0.5);
+}
+
+.dropdown-menu > li > a,
+.dropdown-menu > li a:hover,
+.dropdown-menu > li a:focus {
+    color: #0000ff;     /*#e2e54c;, #e74c3c;  #777; */
+    /* background-color: #d4cece; */       /*#2e6da4;*/
+    background:rgba(212,206,206,0.8);
+}
+
+/* ----------------- */
 
 .main_menu_bg .navbar {
 }
@@ -806,7 +899,7 @@ input::-ms-input-placeholder {
 }
 
 .main_home {
-    padding-top: 250px;
+    padding-top: 150px;
     padding-bottom: 250px;
     display: block;
 }
@@ -888,10 +981,14 @@ input::-ms-input-placeholder {
             Feature section Style
 ====================================================================*/
 
-.main_feature {
+.feature {
+	background-color: #eaeaea;
 }
 
-.main_feature .single_feature {
+.single_feature {
+	background-color: #d2d2d2;
+	height: 360px;
+	border: 3px solid #808080;
 }
 
 .main_feature .single_feature:hover .single_feature_icon {
@@ -926,6 +1023,10 @@ input::-ms-input-placeholder {
     transition: all 0.6s;
 }
 
+p.feature_p {
+   font-size: 130%;	
+}
+
 /*==================================================================
             History section Style
 ====================================================================*/
@@ -936,6 +1037,109 @@ input::-ms-input-placeholder {
 .main_history .single_history_content .head_title h2 {
     border-left: 6px solid #e74c3c;
     padding-left: 30px;
+}
+
+/*==================================================================
+            Team section css
+====================================================================*/
+
+.main_team_area{
+    background: url(images/teambg.jpg) no-repeat scroll top center;
+    background-size: cover;
+    position: relative;
+    height: 650px;
+}
+.main_team_area:before{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left:0;
+    bottom:0;
+    content:"";
+    background: url(images/teambg2.png) no-repeat bottom center;  
+}
+
+.main_team ul li{
+    text-align: center;
+}
+
+.main_team ul li:nth-child(1){
+    width: 15%;
+    display: inline-block;
+    float: left;
+    margin-left: 3%;
+    position: absolute;
+    left:1%;
+    top:96%;
+}
+.main_team ul li:nth-child(2){
+    width: 15%;
+    display: inline-block;
+    float: left;
+    margin-left: 3%;
+    position: absolute;
+    left:19%;
+    top:85%;
+}
+.main_team ul li:nth-child(3){
+    width: 15%;
+    display: inline-block;
+    float: left;
+    margin-left: 3%;
+    position: absolute;
+    left:37%;
+    top:87%;
+}
+.main_team ul li:nth-child(4){
+    width: 15%;
+    display: inline-block;
+    float: left;
+    margin-left: 3%;
+    position: absolute;
+    left:55%;
+    top:97%;
+}
+.main_team ul li:nth-child(5){
+    width: 15%;
+    display: inline-block;
+    float: left;
+    margin-left: 3%;
+    position: absolute;
+    left:73%;
+    top:94%;
+}
+.main_team ul li .single_team_img img{
+    width: 60px;
+    height: 60px;
+    margin:20px auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 3px rgba(231, 76, 60, 0.65);
+}
+
+li:hover .single_team_img img{
+    transform: scale(1.08);
+}
+li:hover .single_team_text{
+    opacity: 1;
+}
+li .single_team_text{
+    padding: 10px 10px;
+    width:100%;
+    opacity:0;
+    transition: all 0.6s;
+    text-align: center;
+    display: block;
+    height: 80px;
+    background-color: #fff;
+}
+li .single_team_text h4{
+    margin-bottom: .0rem;
+    display: inline-block;
+    text-transform:none ;
+    color:#e74c3c;
+}
+li .single_team_text p{
+    color:#fff;
 }
 
 /*==================================================================
@@ -1290,8 +1494,8 @@ button.btn-md:hover, btm-min:hover {
 }
 
 .pricing_body {
-    background: #f4f5f9;
-    padding: 80px 0px 30px 0px;
+    background: #c0c0c0;
+    padding: 70px 0px 30px 0px;
 }
 
 .single_pricing ul {
@@ -1410,7 +1614,7 @@ button.btn-md:hover, btm-min:hover {
 }
 
 li:hover .single_team_img img {
-    transform: scale(1.08);
+    transform: scale(2.0);
 }
 
 li:hover .single_team_text {
@@ -1418,7 +1622,7 @@ li:hover .single_team_text {
 }
 
 li .single_team_text {
-    padding: 10px 20px;
+    padding: 10px 10px;
     width: 100%;
     opacity: 0;
     transition: all 0.6s;
@@ -1435,7 +1639,9 @@ li .single_team_text h4 {
 }
 
 li .single_team_text p {
-    color: #fff;
+	font-size: 14px;
+    /*color: #fff;*/
+    color: #4286f4;
 }
 
 /* Carousel */
@@ -1561,7 +1767,10 @@ li .single_team_text p {
     height: 100%;
 }
 
-/*contact section css*/
+/*==============================================
+             contact section css
+  ============================================== */
+  
 .contact {
     background: #f4f5f9;
 
@@ -1576,7 +1785,7 @@ li .single_team_text p {
 .contact_info_content h3 {
     color: #e74e3e;
     font-family: 'source_sans_prosemibold';
-    margin-bottom: 19px;
+    margin-bottom: 0px;
 }
 
 .contact_info_content h4 {
@@ -1595,7 +1804,7 @@ li .single_team_text p {
 }
 
 .single_contact_info {
-    margin-bottom: 45px;
+    margin-bottom: 5px;
     overflow: hidden;
 }
 
@@ -1709,6 +1918,21 @@ li .single_team_text p {
 
 }
 
+
+.map-container-2{
+     overflow:hidden;
+     padding-bottom: 10px;
+     position:relative;
+     height:0;
+}
+
+.map-container-2 iframe{
+     left:0;
+     top:0;
+     height:100%;
+     width:100%;
+     position:absolute;
+}
 
 
 
