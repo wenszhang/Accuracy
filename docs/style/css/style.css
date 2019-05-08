@@ -1166,6 +1166,7 @@ li .single_team_text p{
 
 .main_service .single_service.single_service_text .single_service_right_text {
     width: 96%;
+    font-size: 1.43rem;
 }
 
 .main_service .single_service.single_service_text .single_service_right_text h4 {
