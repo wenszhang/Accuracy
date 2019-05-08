@@ -27,10 +27,12 @@
 
     <!--Theme custom css -->
     <link rel="stylesheet" href="style/css/style.css">
+    <link rel="stylesheet" href="style/css/login.css">
 
     <!--Theme Responsive css-->
     <link rel="stylesheet" href="style/css/responsive.css"/>
 
+    <script src="style/js/login.js"></script>
     <script src="style/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 
     <!-- Hotjar Tracking Code for https://wsz980.github.io/FBLA-Website/ -->
@@ -46,6 +48,7 @@
             r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
             a.appendChild(r);
         })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    
     </script>
 
 </head>
@@ -107,7 +110,7 @@
                                         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">APPOINTMENT<span class="caret"></span></a>
                                             <ul class="dropdown-menu">
                                                <li><a href="#calendar">Make Appointment</a></li>
-                                               <li><a href="calendar/calendar_staff.html">View Schedule</a></li>
+                                               <li><a href="javascript:login('show');">View Schedule</a></li>
                                             </ul>
                                         </li>
 
@@ -133,6 +136,20 @@
     </header>
     <!--End of header -->
 
+<div id="popupbox"> 
+   <form name="login" action="calendar/calendar_staff.html" method="post">
+      <center>Accuracy Staff Login</center>
+      <p></p>
+      <center>Username:<input name="username" size="14" /></center>
+      <p></p>
+      <center>Password:<input name="password" type="password" size="14" /></center>
+      <p></p>
+      <center><input type="submit" name="submit" value="login" /></center>
+      <div style="position: absolute; right: 10px"><a href="javascript:login('hide');">close</a></div> 
+   </form>
+</div> 
+
+
     <!--Home Section -->
     <section id="home" class="home">
         <div class="overlay">
@@ -140,27 +157,24 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12 ">
-                            <div class="main_home_slider text-center">
+                            <div class="main_home_slider text-center animated" tyle="visibility: visible; animation-duration: 700ms; animation-name: fadeInUp;">
                                 <div class="single_home_slider">
-                                    <div class="main_home wow fadeInUp" data-wow-duration="0ms">
+                                    <div class="main_home wow fadeInRightBig" data-wow-duration="5000ms">
                                         <h3>Our Clients Are Our First Priority</h3>
-                                        <p><p/>
                                         <h1>WELCOME TO ACCURACY</h1>
                                         <div class="separator"></div>
                                         <p>Large enough to meet all your financial needs. Small
                                             enough to know your name.</p>
                                         <div class="home_btn">
-                                            <a href="#pricing" class="btn btn-lg m_t_10">GET STARTED
-                                                NOW</a> <a href="#history" class="btn btn-default">LEARN
-                                            MORE</a>
+                                            <a href="#pricing" class="btn btn-lg m_t_10">GET STARTED NOW</a> 
+                                            <a href="#history" class="btn btn-default">LEARN MORE</a>
                                         </div>
 
                                     </div>
                                 </div>
                                 <div class="single_home_slider">
-                                    <div class="main_home wow fadeInUp" data-wow-duration="700ms">
+                                    <div class="main_home wow fadeInRightBig" data-wow-duration="5000ms">
                                         <h3>Better Us, Better You</h3>
-                                        <p><p/>
                                         <h1>MAKE A DIFFERENCE</h1>
                                         <div class="separator"></div>
                                         <p>We’re more than just a accounting firm. We are your friends, neighbors, and
@@ -174,9 +188,8 @@
                                     </div>
                                 </div>
                                 <div class="single_home_slider">
-                                    <div class="main_home wow fadeInUp" data-wow-duration="700ms">
+                                    <div class="main_home wow fadeInRightBig" data-wow-duration="5000ms">
                                         <h3>Our Clients Are Our First Priority</h3>
-                                        <p><p/>
                                         <h1>Best Services</h1>
                                         <div class="separator"></div>
                                         <p>We offer planning and guidance to help you reach your 
@@ -184,8 +197,8 @@
                                         a vast network of resources behind the scenes — seamlessly 
                                         presented and delivered for you.</p>
                                         <div class="home_btn">
-                                            <a href="" class="btn btn-lg m_t_10">GET STARTED NOW</a> <a
-                                                href="" class="btn btn-default">LEARN MORE</a>
+                                            <a href="" class="btn btn-lg m_t_10">GET STARTED NOW</a> 
+                                            <a href="" class="btn btn-default">LEARN MORE</a>
                                         </div>
 
                                     </div>
@@ -753,7 +766,7 @@
 
 <!--slick slide js -->
 <script src="style/css/slick/slick.js"></script>
-<script src="style/css/slick/slick.min.js"></script>
+<script src="style/css/slick/AAAslick.min.js"></script>
 
 
 <script src="style/js/plugins.js"></script>
