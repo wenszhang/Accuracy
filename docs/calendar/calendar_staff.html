@@ -11,14 +11,14 @@
     <link rel="stylesheet" type="text/css" href="./css/icons.css"></link>
 </head>
 <body>
-
+    
 <div class="culmn">
+
     <div id="lnb">
         <div class="lnb-new-schedule">
-            <button id="btn-new-schedule" type="button"
-                    class="btn btn-default btn-block lnb-new-schedule-btn" data-toggle="modal">
-                Make Appointment
-            </button>
+            <button id="btn-new-schedule" type="button" 
+                    class="btn btn-default btn-block lnb-new-schedule-btn"
+                    data-toggle="modal">Appointment Schedule</button>
         </div>
         <div id="lnb-calendars" class="lnb-calendars">
             <div>
@@ -34,13 +34,12 @@
             </div>
         </div>
         <div class="lnb-footer">
-            © Accuracy Financing
+            © Accuracy Financing Corp.
         </div>
     </div>
-
     <div id="right">
         <div id="menu">
-            <span class="dropdown" style="left:400px">
+            <span class="dropdown">
                 <button id="dropdownMenu-calendarType" class="btn btn-default btn-sm dropdown-toggle" type="button"
                         data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="true">
@@ -97,7 +96,7 @@
                     </li>
                 </ul>
             </span>
-            <span id="menu-navi" style="left:410px;position:relative;">
+            <span id="menu-navi">
                 <button type="button" class="btn btn-default btn-sm move-today" data-action="move-today">Today</button>
                 <button type="button" class="btn btn-default btn-sm move-day" data-action="move-prev">
                     <i class="calendar-icon ic-arrow-line-left" data-action="move-prev"></i>
@@ -107,6 +106,7 @@
                 </button>
             </span>
             <span id="renderRange" class="render-range"></span>
+            <a href="../index.html" class="btn btn-md" style="position: absolute; right: 30px">Back</a>
         </div>
         <div id="calendar"></div>
     </div>

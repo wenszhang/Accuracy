@@ -1,7 +1,7 @@
 <!doctype html>
 
-<html class="no-js" lang="eng" xmlns="http://www.w3.org/1999/html">
-<!--<![endif]-->
+<html class="no-js" lang="eng">
+
 <head>
     <meta name="description" content="Accuracy Financing: Large enough to meet all your financial needs. Small
                                             enough to know your name.">
@@ -27,10 +27,12 @@
 
     <!--Theme custom css -->
     <link rel="stylesheet" href="style/css/style.css">
+    <link rel="stylesheet" href="style/css/login.css">
 
     <!--Theme Responsive css-->
     <link rel="stylesheet" href="style/css/responsive.css"/>
 
+    <script src="style/js/login.js"></script>
     <script src="style/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 
     <!-- Hotjar Tracking Code for https://wsz980.github.io/FBLA-Website/ -->
@@ -72,9 +74,9 @@
                                             data-toggle="collapse"
                                             data-target="#bs-example-navbar-collapse-1"
                                             aria-expanded="false">
-                                        <span class="sr-only">Toggle navigation</span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
+                                        <span class="sr-only">Toggle navigation</span> 
+                                        <span class="icon-bar"></span> 
+                                        <span class="icon-bar"></span> 
                                         <span class="icon-bar"></span>
                                     </button>
                                     <a class="navbar-brand" href="#home"> <img src="images/logo.webp"/></a>
@@ -85,49 +87,44 @@
 
                                     <ul class="nav navbar-nav navbar-right">
                                         <li><a href="#home">HOME</a></li>
-
+                                        
                                         <li class="dropdown">
-                                            <a class="dropdown-toggle" data-toggle="dropdown">SERVICES<span
-                                                    class="caret"></span></a>
+                                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">ABOUT US<span class="caret"></span></a>
                                             <ul class="dropdown-menu">
                                                 <li><a href="#feature">Mission Statement</a></li>
-                                                <li><a href="#service">Services</a></li>
-                                                <li><a href="#pricing">Price</a></li>
-                                            </ul>
-                                        </li>
-
-                                        <li class="dropdown">
-                                            <a class="dropdown-toggle" data-toggle="dropdown">ABOUT US<span
-                                                    class="caret"></span></a>
-                                            <ul class="dropdown-menu">
                                                 <li><a href="#history">Our History</a></li>
                                                 <li><a href="#team">Our Team</a></li>
-
                                             </ul>
                                         </li>
-
-                                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">APPOINTMENT<span
-                                                class="caret"></span></a>
+                                        
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">SERVICES<span class="caret"></span></a>
                                             <ul class="dropdown-menu">
-                                                <li><a href="#calendar">Make Appointment</a></li>
-                                                <li><a href="calendar/calendar_staff.html">View Schedule</a></li>
+                                               <li><a href="#service">Services</a></li>
+                                               <li><a href="#pricing">Price</a></li>
+                                            </ul>
+                                        </li>
+                                        
+
+                                        
+                                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">APPOINTMENT<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                               <li><a href="#calendar">Make Appointment</a></li>
+                                               <li><a href="javascript:login('show');">View Schedule</a></li>
                                             </ul>
                                         </li>
 
                                         <li><a href="#contact">CONTACT</a></li>
-
-                                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE<span
-                                                class="caret"></span></a>
+                                        
+                                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE<span class="caret"></span></a>
                                             <ul class="dropdown-menu">
-                                                <li><a href="#news">News</a></li>
-                                                <li><a href="#resource">Resources</a></li>
                                                 <li><a href="#faq">FAQs</a></li>
+                                                <li><a href="#sitemap">Resources</a></li>
                                                 <li><a href="#sitemap">Site Map</a></li>
+                                                <li><a href="#counter">Site Statistics</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="javascript:void(0)"><span class="glyphicon glyphicon-search"
-                                                                               onclick='open_search(this)'
-                                                                               title='Search'></span></a></li>
+                                        <li><a href="javascript:void(0)"><span class="glyphicon glyphicon-search" onclick='open_search(this)' title='Search'></span></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -146,54 +143,47 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12 ">
-                            <div class="main_home_slider text-center">
+                            <div class="main_home_slider text-center animated" tyle="visibility: visible; animation-duration: 700ms; animation-name: fadeInUp;">
                                 <div class="single_home_slider">
-                                    <div class="main_home wow fadeInUp" data-wow-duration="700ms">
+                                    <div class="main_home wow fadeInRightBig" data-wow-duration="5000ms">
                                         <h3>Our Clients Are Our First Priority</h3>
-                                        <div class="separator5"></div>
                                         <h1>WELCOME TO ACCURACY</h1>
                                         <div class="separator"></div>
                                         <p>Large enough to meet all your financial needs. Small
                                             enough to know your name.</p>
                                         <div class="home_btn">
-                                            <a href="#pricing" class="btn btn-lg m_t_10">GET STARTED
-                                                NOW</a> <a href="#history" class="btn btn-default">LEARN
-                                            MORE</a>
+                                            <a href="#pricing" class="btn btn-lg m_t_10">GET STARTED NOW</a> 
+                                            <a href="#history" class="btn btn-default">LEARN MORE</a>
                                         </div>
-
                                     </div>
                                 </div>
                                 <div class="single_home_slider">
-                                    <div class="main_home wow fadeInUp" data-wow-duration="700ms">
+                                    <div class="main_home wow fadeInRightBig" data-wow-duration="5000ms">
                                         <h3>Better Us, Better You</h3>
-                                        <div class="separator5"></div>
                                         <h1>MAKE A DIFFERENCE</h1>
                                         <div class="separator"></div>
                                         <p>We’re more than just a accounting firm. We are your friends, neighbors, and
-                                            family. Here to help everyone succeed... because without you, we wouldn’t be
+                                            family. Here to help everyone succeed; because without you, we wouldn’t be
                                             here either.</p>
                                         <div class="home_btn">
                                             <a href="" class="btn btn-lg m_t_10">MEET THE TEAM</a> <a
                                                 href="#contact" class="btn btn-default">SEND US A MESSAGE</a>
                                         </div>
-
                                     </div>
                                 </div>
                                 <div class="single_home_slider">
-                                    <div class="main_home wow fadeInUp" data-wow-duration="700ms">
+                                    <div class="main_home wow fadeInRightBig" data-wow-duration="5000ms">
                                         <h3>Our Clients Are Our First Priority</h3>
-                                        <div class="separator5"></div>
                                         <h1>Best Services</h1>
                                         <div class="separator"></div>
-                                        <p>We offer planning and guidance to help you reach your
-                                            professional and personal goals. Our people connect with
-                                            a vast network of resources behind the scenes — seamlessly
-                                            presented and delivered for you.</p>
+                                        <p>We offer planning and guidance to help you reach your 
+                                        professional and personal goals. Our people connect with 
+                                        a vast network of resources behind the scenes — seamlessly 
+                                        presented and delivered for you.</p>
                                         <div class="home_btn">
-                                            <a href="" class="btn btn-lg m_t_10">GET STARTED NOW</a> <a
-                                                href="" class="btn btn-default">LEARN MORE</a>
+                                            <a href="" class="btn btn-lg m_t_10">GET STARTED NOW</a> 
+                                            <a href="" class="btn btn-default">LEARN MORE</a>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
@@ -212,13 +202,13 @@
     <!--feature section -->
     <section id="feature" class="feature sections">
         <div class="container">
-            <div class="head_title text-center">
+           <div class="head_title text-center">
 
                 <h2>MISSION STATEMENT</h2>
-                <div class="subtitle_01">Better Us, Better You</div>
-                <!--div class="separator"></div-->
-            </div>
-            <!-- End off Head_title -->
+                        <div class="subtitle">We promise to know you and help you</div>
+                            <!--div class="separator"></div-->
+                        </div>
+                        <!-- End off Head_title -->
             <div class="row">
                 <div class="main_feature text-center">
 
@@ -230,7 +220,9 @@
 
                             <h4>GOAL ORIENTATED</h4>
                             <div class="separator3"></div>
-                            <p class="feature_p">Every action carried out with the goal in mind</p>
+                            <p class="feature_p">Every action carried out with the goal in mind. 
+                                 We constantly build our capabilities so that when you have a need, 
+                                 we are ready to help.</p>
                         </div>
                     </div>
 
@@ -242,7 +234,7 @@
 
                             <h4>CUSTOMER FOCUSED</h4>
                             <div class="separator3"></div>
-                            <p class="feature_p">Your needs are our priority.</p>
+                            <p class="feature_p">Your needs are our priority. We listen to you, build a plan together, and bring it to life.</p>
                         </div>
                     </div>
 
@@ -266,7 +258,8 @@
 
                             <h4>FREE SUPPORT</h4>
                             <div class="separator3"></div>
-                            <p class="feature_p">We are here to help, wherever and whenever you need it</p>
+                            <p class="feature_p">Invested in your success. We combine our 
+                            knowledge with yours to make you stronger.</p>
                         </div>
                     </div>
 
@@ -276,139 +269,16 @@
         <!--End of container -->
     </section>
     <!--End of feature Section -->
-    <hr/>
 
-
-    <!-- Services section -->
-    <section id="service" class="service">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="main_service">
-                    <div class="col-md-6 col-sm-12 no-padding">
-
-                        <div class="single_service single_service_text text-right">
-                            <div class="head_title">
-                                <h2>OUR SERVICES</h2>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-md-12 col-sm-10 col-xs-10 margin-bottom-60">
-                                    <div class="row">
-
-                                        <div
-                                                class="col-sm-10 col-sm-offset-1 col-xs-9 col-xs-offset-1">
-                                            <article class="single_service_right_text">
-                                                <h4>PERSONAL FINANCING</h4>
-                                                <p>TESTING</p>
-                                            </article>
-                                        </div>
-                                        <div class="col-sm-1 col-xs-1">
-                                            <figure class="single_service_icon">
-                                                <i class="fa fa-heart"></i>
-                                            </figure>
-                                            <!-- End of figure -->
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End of col-sm-12 -->
-
-                                <div class="col-md-12 col-sm-10 col-xs-10 margin-bottom-60">
-                                    <div class="row">
-
-                                        <div
-                                                class="col-sm-10 col-sm-offset-1 col-xs-9 col-xs-offset-1">
-                                            <article class="single_service_right_text">
-                                                <h4>MARKET AND STRATEGIC REVIEW</h4>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and
-                                                    typesetting industry. Lorem Ip sum has been the industry's
-                                                    standard dummy text ever.</p>
-                                            </article>
-                                        </div>
-                                        <div class="col-sm-1 col-xs-1">
-                                            <figure class="single_service_icon">
-                                                <i class="fa fa-heart"></i>
-                                            </figure>
-                                            <!-- End of figure -->
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End of col-sm-12 -->
-
-                                <div class="col-md-12 col-sm-10 col-xs-10 margin-bottom-60">
-                                    <div class="row">
-
-                                        <div
-                                                class="col-sm-10 col-sm-offset-1 col-xs-9 col-xs-offset-1 margin-bottom-20">
-                                            <article class="single_service_right_text">
-                                                <h4>BUISNESS</h4>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and
-                                                    typesetting industry. Lorem Ip sum has been the industry's
-                                                    standard dummy text ever.</p>
-                                            </article>
-                                        </div>
-                                        <div class="col-sm-1 col-xs-1">
-                                            <figure class="single_service_icon">
-                                                <i class="fa fa-heart"></i>
-                                            </figure>
-                                            <!-- End of figure -->
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End of col-sm-12 -->
-
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End of col-sm-6 -->
-
-                    <div class="col-md-6 col-sm-12 no-padding">
-                        <figure class="single_service single_service_img">
-                            <div class="overlay-img"></div>
-                            <img src="images/servicerightimg.jpg" alt=""/>
-                        </figure>
-                        <!-- End of figure -->
-                    </div>
-                    <!-- End of col-sm-6 -->
-
-                </div>
-            </div>
-            <!-- End of row -->
-        </div>
-        <!-- End of Container-fluid -->
-    </section>
-    <!-- End of Services section -->
-
-    <!-- Pricing Section -->
-    <section id="pricing" class="pricing">
-        <div class="container">
-            <div class="row">
-                <div class="main_pricing_area sections">
-                    <div class="head_title text-center">
-                        <h2>OUR PRICES</h2>
-                        <div class="subtitle">Get what you need, at prices you want
-                        </div>
-                        <div class="separator"></div>
-                    </div>
-                    <!-- End off Head_title -->
-                    <div class="iframe-container">
-                        <iframe src="pages/plans/pricing.html" allowfullscreen scrolling="no"></iframe>
-                    </div>
-                </div>
-            </div>
-            <!-- End off row -->
-        </div>
-        <!-- End off container -->
-    </section>
-    <!-- End off Pricing Section -->
 
     <!-- History section -->
     <section id="history" class="history sections">
-        <div class="container  margin-top-60">
+        <div class="container  margin-top-0">
             <div class="row">
                 <div class="main_history">
                     <div class="col-sm-6">
                         <div class="single_history_img">
-                            <img src="images/stab1.jpg" alt=""/>
+                            <img src="images/stab1.webp" alt=""/>
                         </div>
                     </div>
 
@@ -454,14 +324,13 @@
     </section>
     <!--End of history -->
 
-<<<<<<< HEAD
-            <!-- Team Section -->
+		<!-- Team Section -->
 		<section id="team" class="team">
 			<div class="main_team_area">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12">
-							<div class="head_title textwhite text-center margin-top-150">
+							<div class="head_title textwhite text-center margin-top-80">
 								<h2>OUR TEAM</h2>
 								<div class="subtitle">Meet the craziest team. Share your thoughts with them.</div>
 								<!-- div class="separator"></div -->
@@ -472,16 +341,16 @@
 								<ul>
 									<li>
 										<div class="single_team_img">
-											<img src="images/team1.jpg" alt="" />
+											<img src="images/team1.webp" alt="" />
 										</div>
 										<div class="single_team_text">
 											<h4>Semf Ucuk</h4>
-											<p>Founder</p>
+											<p>Founder, Data analytics consulting</p>
 										</div>
 									</li>
 									<li>
 										<div class="single_team_img">
-											<img src="images/team2.jpg" alt="" />
+											<img src="images/team2.webp" alt="" />
 										</div>
 										<div class="single_team_text">
 											<h4>Kazi Erfan</h4>
@@ -490,7 +359,7 @@
 									</li>
 									<li>
 										<div class="single_team_img">
-											<img src="images/team3.jpg" alt="" />
+											<img src="images/team3.webp" alt="" />
 										</div>
 										<div class="single_team_text">
 											<h4>Jeng Koli</h4>
@@ -499,7 +368,7 @@
 									</li>
 									<li>
 										<div class="single_team_img">
-											<img src="images/team4.jpg" alt="" />
+											<img src="images/team4.webp" alt="" />
 										</div>
 										<div class="single_team_text">
 											<h4>Pet Romak</h4>
@@ -508,7 +377,7 @@
 									</li>
 									<li>
 										<div class="single_team_img">
-											<img src="images/test2.jpg" alt="" />
+											<img src="images/test2.webp" alt="" />
 										</div>
 										<div class="single_team_text">
 											<h4>Chet Pok</h4>
@@ -526,79 +395,131 @@
 			</div>
 		</section>
 		<!-- End off Team Section -->
-=======
-    <!-- Team Section -->
-    <section id="team" class="team">
-        <div class="main_team_area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="head_title textwhite text-center margin-top-150">
-                            <h2>OUR TEAM</h2>
-                            <div class="subtitle">Meet the craziest team. Share your thoughts with them.</div>
-                            <!-- div class="separator"></div -->
-                        </div>
-                        <!-- End off Head_title -->
 
-                        <div class="main_team margin-top-150">
-                            <ul>
-                                <li>
-                                    <div class="single_team_img">
-                                        <img src="images/team1.jpg" alt=""/>
-                                    </div>
-                                    <div class="single_team_text">
-                                        <h4>Semf Ucuk</h4>
-                                        <p>Founder</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="single_team_img">
-                                        <img src="images/team2.jpg" alt=""/>
-                                    </div>
-                                    <div class="single_team_text">
-                                        <h4>Kazi Erfan</h4>
-                                        <p>CPA</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="single_team_img">
-                                        <img src="images/team3.jpg" alt=""/>
-                                    </div>
-                                    <div class="single_team_text">
-                                        <h4>Jeng Koli</h4>
-                                        <p>CPA</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="single_team_img">
-                                        <img src="images/team4.jpg" alt=""/>
-                                    </div>
-                                    <div class="single_team_text">
-                                        <h4>Pet Romak</h4>
-                                        <p>Management Accountant</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="single_team_img">
-                                        <img src="images/test2.jpg" alt=""/>
-                                    </div>
-                                    <div class="single_team_text">
-                                        <h4>Chet Pok</h4>
-                                        <p>Investment Accountant</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
+    <!-- ==================== Services section ============================ -->
+    <section id="service" class="service">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="main_service">
+                    <div class="col-md-6 col-sm-12 no-padding">
 
+                        <div class="single_service single_service_text text-right">
+                            <div class="head_title">
+                                <h2>OUR SERVICES</h2>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12 col-sm-10 col-xs-10 margin-bottom-60">
+                                    <div class="row">
+
+                                        <div class="col-sm-10 col-sm-offset-1 col-xs-9 col-xs-offset-1">
+                                            <article class="single_service_right_text">
+                                                <h4>PERSONAL FINANCING</h4>
+                                                Consulting, financial planning<br>
+                                                Investment management, individual taxes
+                                                
+                                            </article>
+                                        </div>
+                                        <div class="col-sm-1 col-xs-1">
+                                            <figure class="single_service_icon">
+                                                <!-- <i class="fa fa-heart"></i> -->
+                                            </figure>
+                                            <!-- End of figure -->
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <!-- End of col-sm-12 -->
+
+                                <div class="col-md-12 col-sm-10 col-xs-10 margin-bottom-60">
+                                    <div class="row">
+
+                                        <div class="col-sm-10 col-sm-offset-1 col-xs-9 col-xs-offset-1">
+                                            <article class="single_service_right_text">
+                                                <h4>MARKET AND STRATEGIC REVIEW</h4>
+                                                Business succession planning<br>
+                                                Data analytics and insights
+                                            </article>
+                                        </div>
+                                        <div class="col-sm-1 col-xs-1">
+                                        <!-- 
+                                            <figure class="single_service_icon">
+                                                <i class="fa fa-heart"></i>
+                                            </figure>
+                                            -->
+                                            <!-- End of figure -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End of col-sm-12 -->
+
+                                <div class="col-md-12 col-sm-10 col-xs-10 margin-bottom-60">
+                                    <div class="row">
+
+                                        <div class="col-sm-10 col-sm-offset-1 col-xs-9 col-xs-offset-1 margin-bottom-20">
+                                            <article class="single_service_right_text">
+                                                <h4>BUSINESS</h4>
+                                                Bookkeeping, annual reports, business taxes<br>
+                                                Audits, accounting, consulting and accounting solutions 
+                                            </article>
+                                        </div>
+                                        <div class="col-sm-1 col-xs-1">
+                                        <!-- 
+                                            <figure class="single_service_icon">
+                                                <i class="fa fa-heart"></i>
+                                            </figure>
+                                            -->
+                                            <!-- End of figure -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End of col-sm-12 -->
+
+                            </div>
+                        </div>
                     </div>
-                    <!-- End of main team contant -->
+                    <!-- End of col-sm-6 -->
+
+                    <div class="col-md-6 col-sm-12 no-padding">
+                        <figure class="single_service single_service_img">
+                            <div class="overlay-img"></div>
+                            <img src="images/servicerightimg.webp" alt=""/>
+                        </figure>
+                        <!-- End of figure -->
+                    </div>
+                    <!-- End of col-sm-6 -->
+
                 </div>
             </div>
-            <!-- End of container -->
+            <!-- End of row -->
         </div>
+        <!-- End of Container-fluid -->
     </section>
-    <!-- End off Team Section -->
->>>>>>> 87b792455f1b0856c2b9d1086c8837e74d035f90
+    <!-- End of Services section -->
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="row">
+                <div class="main_pricing_area sections">
+                    <div class="head_title text-center">
+                        <h2>OUR PRICES</h2>
+                        <div class="subtitle">Get what you need, at prices you want
+                        </div>
+                        <div class="separator"></div>
+                    </div>
+                    <!-- End off Head_title -->
+                    <div class="iframe-container">
+                        <iframe src="pages/plans/pricing.html" allowfullscreen scrolling="no"></iframe>
+                    </div>
+                </div>
+            </div>
+            <!-- End off row -->
+        </div>
+        <!-- End off container -->
+    </section>
+    <!-- End off Pricing Section -->
+
 
     <!-- Calendar Section -->
     <section id="calendar" class="calendar">
@@ -635,39 +556,37 @@
                         </div>
                         <!-- End off Head_title -->
                         <div class="row">
-
+                        
                             <div class="col-sm-6">
 
                                 <div class="contact_info_content padding-top-20 padding-bottom-20 p_l_r">
+                                        
+                                   <div class="col-sm-12">
+                                      <div class="single_contact_info">
+                                         <div class="single_info_text">
+                                                       <h3>OUR ADDRESS</h3>
+                                                        <h4>7350 South 900 East, Midvale, UT 84047</h4>
+                                                       
+                                                        <h3>CALL US</h3>
+                                                        <h4>Tel: 801-826-6000</h4>
+                                                        <h4>Cell: 0216809142</h4>
 
-                                    <div class="col-sm-12">
-                                        <div class="single_contact_info">
-                                            <div class="single_info_text">
-                                                <h3>OUR ADDRESS</h3>
-                                                <h4>7350 South 900 East, Midvale, UT 84047</h4>
-
-                                                <h3>CALL US</h3>
-                                                <h4>Tel: 801-826-6000</h4>
-                                                <h4>Cell: 0216809142</h4>
-
-                                                <h3>EMAIL US</h3>
-                                                <h4>contactus@email.com</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!--Google map-->
-                                    <div id="map-container-google-2" class="z-depth-1-half map-container"
-                                         style="height: 100%; ">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3028.5749394153327!2d-111.86872118459799!3d40.617200979342364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752882dd1d1d94b%3A0xbfdb6a332851ad58!2s7350+South+900+East%2C+Midvale%2C+UT+84047!5e0!3m2!1sen!2sus!4v1556734642928!5m2!1sen!2sus"
-                                                frameborder="30px" style="border-width: 1px;  border-color: red;"
-                                                allowfullscreen width="100%" height="330px">
-                                        </iframe>
-                                    </div>
-                                    <!--Google Maps-->
+                                                        <h3>EMAIL US</h3>
+                                                        <h4>contactus@email.com</h4>
+                                         </div>
+                                      </div>
+                                   </div>
+                             
+<!--Google map-->
+<div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 100%; ">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3028.5749394153327!2d-111.86872118459799!3d40.617200979342364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752882dd1d1d94b%3A0xbfdb6a332851ad58!2s7350+South+900+East%2C+Midvale%2C+UT+84047!5e0!3m2!1sen!2sus!4v1556734642928!5m2!1sen!2sus" 
+            frameborder="30px" style="border-width: 1px;  border-color: red;" allowfullscreen width="100%" height="330px">
+    </iframe>
+</div>
+<!--Google Maps-->
                                 </div>
 
-                            </div>
+                            </div>     
 
                             <div class="col-sm-6">
                                 <div class="single_contant_left padding-top-90 padding-bottom-90">
@@ -683,37 +602,35 @@
                                                     </div>
                                                 </div>
 
-                                                <div class=" col-sm-12">
-                                                        <div class="form-group">
-                                                            <input type="email" class="form-control" name="email"
-                                                                   placeholder="Email" required=""
-                                                                   style="border-width: 1px;  background-color: #ededed;>
+                                                <div class="col-sm-12">
+                                                    <div class="form-group">
+                                                        <input type="email" class="form-control" name="email"
+                                                               placeholder="Email" required=""
+                                                               style="border-width: 1px;  background-color: #ededed;>
                                                     </div>
                                                 </div>
-                                                <div class=" col-sm-12">
-                                                            <div class="form-group">
-                                                                <input type="text" class="form-control" name="subject"
-                                                                       placeholder="Subject" required=""
-                                                                       style="border-width: 1px;  background-color: #ededed;>
+                                                <div class="col-sm-12">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" name="subject" 
+                                                               placeholder="Subject" required="" 
+                                                               style="border-width: 1px;  background-color: #ededed;>
                                                     </div>
                                                 </div>
                                             </div>
 
 
-                                            <div class=" form-group">
-                                                                <textarea class="form-control" name="message" rows="9"
-                                                                          placeholder="Message"
-                                                                          style="border-width: 1px;  background-color: #ededed;"></textarea>
-                                                            </div>
+                                            <div class="form-group">
+													<textarea class="form-control" name="message" rows="9" placeholder="Message"
+													          style="border-width: 1px;  background-color: #ededed;"></textarea>
+                                            </div>
 
-                                                            <div class="">
-                                                                <input type="submit" value="SEND MESSAGE"
-                                                                       class="btn btn-lg">
-                                                            </div>
-
-                                                        </div>
+                                            <div class="">
+                                                <input type="submit" value="SEND MESSAGE" class="btn btn-lg">
+                                            </div>
+                                            
+                                        </div>
                                     </form>
-
+                                    
                                 </div>
                             </div>
 
@@ -725,40 +642,129 @@
     </section>
     <!-- End of contact section -->
 
-    <!--Testimonial-->
-    <section id="FAQ" class="FAQ">
-        <div class="main_faq_area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="head_title text-center margin-top-20">
-                            <h2>FAQs</h2>
-                        </div>
-                        <div class="text-left">
-                            <div class="faq_question"><b>Can I book an appointment?</b>
-                                <p>Of course you can! We have an online scheduling service that is encrypted with a login.<br>  </p>
+
+<!-- ============== Site Map =================== -->
+
+    <section id="sitemap" class="sitemap">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="main_sitemap">
+
+                    <div class="col-sm-6 ">
+
+                        <div class="single_sitemap single_sitemap_text text-left">
+                            <div class="head_title">
+                                <h2>RESOURCES</h2>
                             </div>
-                            <div></div>
-                            <div class="faq_question"><b>Is the initial consultation free?</b>
-                                <p> The initial consultation is free. All you need to do is book and we will provide the rest!</p>
-                            </div>
-                            <div class="faq_question"><b>Does Accuracy Provide International Bussiness Assisstance?</b>
-                                <p> Yes, we do. Our team has worked and specialized the service we provide to reach out internationally. And type of service that we list is always available no matter where you are.</p>
-                            </div>
-                            <div class="faq_question"><b>Does Accuracy Provide International Bussiness Assisstance?</b>
-                                <p>Managed Services are the service that we've made to handle your needs. We make sure that your tasks are under control and are safe under protection.
-                                Our trusted team will keep your information private and no one will be allowed to use or view it.</p>
-                            </div>
-                            <div class="faq_question"><b>What is the pricing for various services?</b>
-                                <p>ghjgjh</p>
+                            <div class="row">
+                                <div class="col-md-12 col-sm-10 col-xs-10 margin-bottom-60">
+                                    <div class="row">
+
+                                        <div class="col-sm-10 Acol-sm-offset-1 col-xs-9 col-xs-offset-1">
+                                        
+                                            <h4>Accounting Basic</h4>
+                                            <li><a href="https://www.accounting.com/">Accounting.com</a></li>
+                                            <li><a href="https://www.learnaccountingforfree.com/">learnaccounting for free</a></li>
+                                                                                        
+                                            <h4>Useful Tools</h4>
+                                            <li><a href="https://www.accountingtools.com/">Accounting Tools</a></li>
+                                            <li><a href="https://digital.com/blog/accounting-tools/">Best Tools for Balancing Your Books</a></li>
+                                            <li><a href="https://www.fundera.com/blog/accounting-tools">12 Accounting Tools</a></li>
+                                            <li><a href="https://www.accounting-degree.org/top-accounting-technology-tools/">Best Online Accounting Tools</a></li>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- End of col-sm-12 -->
+                                
                             </div>
                         </div>
                     </div>
+                    <!-- End of col-sm-6 -->
+
+                    <div class="col-sm-3 ">
+
+                        <div class="single_sitemap single_sitemap_text text-left">
+
+                            <div class="head_title">
+                                <h2>Site Map</h2>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 col-sm-10 col-xs-10 margin-bottom-60">
+                                    <div class="row">
+
+                                        <div class="col-sm-10 Acol-sm-offset-1 col-xs-9 col-xs-offset-1">
+                                        
+                                            <h4>HOME</h4>
+                                            <li><a href="#home">HOME</a></li>
+                                            
+                                            <h4>ABOUT US</h4>
+                                            <li><a href="#feature">Mission Statement</a></li>
+                                            <li><a href="#history">Our History</a></li>
+                                            <li><a href="#team">Our Team</a></li>
+                                            
+                                            <h4>SERVICES</h4>
+                                            <li><a href="#service">Services</a></li>
+                                            <li><a href="#pricing">Price</a></li>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- End of col-sm-12 -->
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of col-sm-6 -->
+
+                    <div class="col-sm-3 ">
+
+                        <div class="single_sitemap single_sitemap_text text-left">
+
+                            <div class="head_title">
+                                <h2> </h2>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 col-sm-10 col-xs-10 margin-bottom-60">
+                                    <div class="row">
+
+                                        <div class="col-sm-10 Acol-sm-offset-1 col-xs-9 col-xs-offset-1">
+
+                                            <h4>APPOINTMENT</h4>
+                                            <li><a href="#calendar">Make Appointment</a></li>
+                                            <li><a href="javascript:login('show');">View Schedule</a></li>
+                                            
+                                            <h4>CONTACT</h4>
+                                            <li><a href="#contact">CONTACT</a></li>
+                                            
+                                            <h4>MORE</h4>
+                                            <li><a href="#faq">FAQs</a></li>
+                                            <li><a href="#resource">Resources</a></li>
+                                            <li><a href="#sitemap">Site Map</a></li>
+                                            <li><a href="#counter">Site Statistics</a></li>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- End of col-sm-12 -->
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of col-sm-6 -->
+
+                </div>
+
                 </div>
             </div>
+            <!-- End of row -->
         </div>
+        <!-- End of Container-fluid -->
     </section>
-    <!-- End of Testimonial>
+
+    
+
 
     <!-- Counter Section -->
     <section id="counter" class="counter">
@@ -817,7 +823,7 @@
         <!-- End off container -->
     </section>
     <!-- End of counter section -->
-
+    
 </div>
 
 <!--Footer section-->
@@ -825,6 +831,8 @@
     <section class="footer">
         <div class="container">
             <div class="row">
+            
+                        
                 <div class="col-sm-12">
                     <div class="main_footer">
                         <div class="row">
@@ -853,17 +861,34 @@
     <a href="#"><i class="fa fa-chevron-up"></i></a>
 </div>
 
+<!-- ================== Schedule Popup ============= -->
+<div id="popupbox"> 
+   <form name="login" action="calendar/calendar_staff.html" method="post">
+      <center>Accuracy Staff Login</center>
+      <p></p>
+      <center>Username:<input name="username" value="Accuracy Staff" size="14" /></center>
+      <p></p>
+      <center>Password:<input name="password" type="password" value="Accuracy Staff" size="14" /></center>
+      <p></p>
+      <center><input type="submit" name="submit" value="login" /></center>
+      <div style="position: absolute; right: 10px"><a href="javascript:login('hide');">close</a></div> 
+   </form>
+</div> 
+<!-- ================== End Schedule Popup ============= -->
+
 <script src="style/js/vendor/jquery-1.11.2.min.js"></script>
 <script src="style/js/vendor/bootstrap.min.js"></script>
-
 <script src="style/js/jquery.magnific-popup.js"></script>
+
+<!-- no used --++>
 <script src="style/js/jquery.mixitup.min.js"></script>
 <script src="style/js/jquery.easing.1.3.js"></script>
 <script src="style/js/jquery.masonry.min.js"></script>
+<++!-- -->
 
 <!--slick slide js -->
 <script src="style/css/slick/slick.js"></script>
-<script src="style/css/slick/slick.min.js"></script>
+<!-- <script src="style/css/slick/slick.min.js"></script> -->
 
 
 <script src="style/js/plugins.js"></script>
