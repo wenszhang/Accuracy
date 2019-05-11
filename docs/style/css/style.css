@@ -652,7 +652,7 @@ input::-ms-input-placeholder {
     z-index: 300;
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-    background-color: rgba(34, 61, 97, 0.64);
+    background-color: rgba(108, 108, 108, 0.64);
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -954,12 +954,6 @@ input::-ms-input-placeholder {
 
 .feature {
     background-color: #fff /* #eaeaea; */
-}
-
-.single_feature {
-    background-color: #eaeaea; /* #d2d2d2; */
-    height: 360px;
-    border: 3px solid #808080; /* #808080; */
 }
 
 .main_feature .single_feature:hover .single_feature_icon {
