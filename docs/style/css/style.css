@@ -1702,8 +1702,52 @@ li .single_team_text p {
 }
 
 /*==================================================================
-            faq sefaqon Style
+            faq Section Style
 ====================================================================*/
+.faq-title-text {
+    border-left: 6px solid #e74c3c;
+    color: #fff;
+    padding-left: 5%;
+}
+
+.faq-text {
+    font-family: source_sans_proregular;
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-left: 6px solid #e74c3c;
+    padding-left: 2.5%;
+}
+
+.accordion-section .panel-default > .panel-heading {
+    background: #202020;
+    /* border: 0;
+    padding: 0; */
+}
+.panel-title{
+    color: #777777;
+}
+
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-size: 1.5rem;
+}
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 3rem;
+    content: "\f106";
+    color: #e24b18;
+    float: right;
+    margin-top: -12px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f107";
+}
+.accordion-section .panel-default .panel-body {
+    font-size: 1.2rem;
+}
 
 .faq {
     background-color: #202020;
