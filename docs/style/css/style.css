@@ -1707,7 +1707,8 @@ li .single_team_text p {
 .faq-title-text {
     border-left: 6px solid #e74c3c;
     color: #fff;
-    padding-left: 5%;
+    padding: 100px 50px 0px 0px;
+    margin-bottom: 0px;
 }
 
 .faq-text {
@@ -1722,9 +1723,9 @@ li .single_team_text p {
 
 .accordion-section .panel-default > .panel-heading {
     background: #202020;
-    /* border: 0;
-    padding: 0; */
+    border: 0;
 }
+
 .panel-title{
     color: #777777;
 }
