@@ -4,7 +4,7 @@ Accuracy Website for FBLA 2018-2019
 _______________
 
 
-Website URL: https://wsz980.github.io/Accuracy/
+Website URL: https://wenszhang.github.io/Accuracy/
 
 Requirements: https://www.fbla-pbl.org/competitive-event/website-design-fbla/
 
